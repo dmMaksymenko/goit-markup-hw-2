@@ -3,7 +3,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 140%;
+  line-height: 1.17; 
   background-color: #FFF;
 }
 ul {
@@ -56,14 +56,15 @@ h3 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-style: normal;
 }
-.address-item {
+.address-list-item {
   color: #434455;
   font-style: normal;
   font-weight: 400;
 }
-.address-item:hover,
-.address-item:focus {
+.address-list-item:hover,
+.address-list-item:focus {
   color: #404bbf;
 }
 .header-nav-item:focus ,
@@ -89,9 +90,7 @@ h3 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  border-radius: 4px;
   background-color: #4D5AE5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .main-banner-btn:hover ,
 .main-banner-btn:focus {
