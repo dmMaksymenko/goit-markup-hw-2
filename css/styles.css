@@ -1,9 +1,7 @@
 body {
   color: #434455;
   font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17; 
+  font-weight: 400;
   background-color: #FFF;
 }
 ul {
@@ -12,15 +10,19 @@ ul {
 a {
   text-decoration: none;
 }
-p {
-color: #434455;
+.features-text,
+.team-list-text,
+.portfolio-list-text {
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
-h2 {
+.features-title,
+.team-title,
+.portfolio-title {
   color: #2E2F42;
   text-align: center;
   font-size: 36px;
@@ -29,11 +31,13 @@ h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-h3 {
+.features-header,
+.team-list-header,
+.portfolio-list-header {
   color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.4px;
 }
 .logo {
@@ -54,13 +58,12 @@ h3 {
   color: #2E2F42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
 }
 .address-list-item {
   color: #434455;
-  font-style: normal;
   font-weight: 400;
 }
 .address-list-item:hover,
@@ -88,7 +91,7 @@ h3 {
   color: #FFF;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.64px;
   background-color: #4D5AE5;
 }
@@ -96,20 +99,6 @@ h3 {
 .main-banner-btn:focus {
   background-color: #404BBF;
   cursor: pointer;
-}
-.features-title {
-  color: #2E2F42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-.features-text {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 .team {
   background-color: #F4F4FD;
