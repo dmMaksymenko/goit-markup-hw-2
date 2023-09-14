@@ -17,7 +17,7 @@ a {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.32px;
 }
 .features-title,
@@ -124,4 +124,6 @@ color: #f4f4fd;
 }
 .footer-text {
   color: #F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
