@@ -1,7 +1,6 @@
 body {
   color: #434455;
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   background-color: #FFF;
 }
 ul {
@@ -13,10 +12,7 @@ a {
 .features-text,
 .team-list-text,
 .portfolio-list-text {
-  color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -52,30 +48,25 @@ a {
 .logo-style {
   color: #2e2f42;
 }
-.header-nav-item ,
-.address{
-  text-transform: none;
+.header-nav-item {
   color: #2E2F42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.address {
   font-style: normal;
 }
 .address-list-item {
   color: #434455;
-  font-weight: 400;
 }
 .address-list-item:hover,
-.address-list-item:focus {
+.address-list-item:focus,
+.header-nav-item:focus,
+.header-nav-item:hover {
   color: #404bbf;
 }
-.header-nav-item:focus ,
-.header-nav-item:hover {
-  color: #404BBF;
-  text-decoration: underline;
-}
-
 .main-banner {
   background: #2E2F42;
 }
